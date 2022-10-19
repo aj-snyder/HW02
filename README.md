@@ -5,7 +5,7 @@ Homework 2: Unix shell
 This homework will assess your ability to run commands in the shell and make a simple script.
 Replace the lines specified in italics with your answers and save as a text file.
 
-##Problem 0
+## Problem 0
 60 points
 
 Complete the interactive tutorial.
@@ -13,7 +13,7 @@ Did you hit any points of frustration, and if so, how could we improve the mater
 
 
 
-##Problem 1
+## Problem 1
 20 points
 
 Write a script that outputs some user and location data and moves that output to a newly created directory
@@ -29,7 +29,7 @@ Example: My name is melody My home directory is /Users/melody The contents of th
 
 
 
-##Problem 2
+## Problem 2
 20 points
 
 Write a script that uses a loop to output files with specific names

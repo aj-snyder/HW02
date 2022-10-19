@@ -11,8 +11,7 @@ Replace the lines specified in italics with your answers and save as a text file
 Complete the interactive tutorial.
 Did you hit any points of frustration, and if so, how could we improve the material to avoid that frustration?
 
-I did not hit any major points of frusteration. I know others were having issues with the man-man function while working in VS code however I was working directly in the terminal and had no issues. 
-It was helpful for me to be taken step-by-step through the tutorial with your added comments and suggestions "mash the keys and see what happens" As i found myself being nervous I was going to mess something up. Refreshing to see if something doesnt work you can simply "return" and try again.
+I did not hit any major points of frustration. I know others were having issues with the man-man function while working in VS code however I was working directly in the terminal and had no issues. It was helpful for me to be taken step-by-step through the tutorial with your added comments and suggestions "mash the keys and see what happens" As I found myself being nervous I was going to mess something up. Refreshing to see if something doesn’t work you can simply "return" and try again.
 
 
 

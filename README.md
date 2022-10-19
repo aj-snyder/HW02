@@ -31,6 +31,37 @@ This file should contain the following text:
 Example: My name is melody My home directory is /Users/melody The contents of the tfcb_2022/lectures/lecture04/ directory are 01-first-steps.md 02-directories 03-redirection 04-vim 05-history 06-scripting 07-more-interactive-shell README.md quickref.md sequence.gb slides vader.txt
 
 
+### AS script: 
+a.j.@AJs-MacBook-Air ~ % mkdir homework02 
+a.j.@AJs-MacBook-Air ~ % echo "My name is " $USER > question01.txt
+a.j.@AJs-MacBook-Air ~ % echo "My home directory is " $HOME >> question01.txt
+a.j.@AJs-MacBook-Air ~ % echo "The contents of tfcb_2022/lectures/lecture04/ directory are: " >> question01.txt
+a.j.@AJs-MacBook-Air ~ % for filename in $(ls tfcb_2022/lectures/lecture04/); do echo $filename >> question01.txt; done
+a.j.@AJs-MacBook-Air ~ % mv question01.txt homework02
+
+### AS validation 
+a.j.@AJs-MacBook-Air ~ % cd homework02
+a.j.@AJs-MacBook-Air homework02 % ls
+question01.txt
+a.j.@AJs-MacBook-Air homework02 % cat question01.txt
+My name is  a.j.
+My home directory is  /Users/a.j.
+The contents of tfcb_2022/lectures/lecture04/ directory are: 
+01-first-steps.md
+02-directories
+03-redirection
+04-vim
+05-history
+06-scripting
+07-more-interactive-shell
+README.md
+quickref.md
+sequence.gb
+slides
+tfcb_2022
+vader.txt
+a.j.@AJs-MacBook-Air homework02 % 
+
 
 ## Problem 2
 20 points

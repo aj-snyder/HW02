@@ -73,4 +73,6 @@ In that directory, your script should make 25 new files called file###.txt
 the ### should be the numbers from a list you can find here: tfcb_2022/homeworks/homework02/list.txt
 You can make the contents of those files whatever you want (hint: slide 10... what was the contents of the fake "jpg" file?)
 
-
+### AS script
+mkdir homework02/question02
+for i in $(cat list.txt); do echo $i; > homework02/question02/file$i.txt; done
